@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 3
+names: ['COMB', 'Glasses cleaning cloth', 'WALLET']
+
+roboflow:
+  workspace: s-workspace-irqab
+  project: yolo-lnqjz
+  version: 1
+  license: Private
+  url: https://app.roboflow.com/s-workspace-irqab/yolo-lnqjz/1
